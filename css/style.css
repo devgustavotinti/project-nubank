@@ -17,6 +17,12 @@ body {
   background: #1a1a1a;
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    background: blue;
+  }
+}
+
 svg, img {
   display: block;
   width: 100%;
