@@ -1,0 +1,32 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import "partials/colors", "partials/layout", "partials/typography", "partials/buttons", "partials/spacing";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  scroll-behavior: smooth;
+
+  background: #1a1a1a;
+}
+
+svg, img {
+  display: block;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+@import "partials/menu", "partials/swiper", "partials/icons", "partials/footer", "partials/animatons";
