@@ -18,10 +18,6 @@ body {
   scroll-behavior: smooth;
 
   background: $white-dark;
-
-  @include responsive(xl) {
-    background: blue;
-  }
 }
 
 svg, img {
